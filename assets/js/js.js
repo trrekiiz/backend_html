@@ -26,7 +26,7 @@ function generatePagination () {
 }
 
 function goToNextSlide () {
-  if(currentSlide >= slideCount - 1) return; 
+  if(currentSlide >= slideCount - 1) return;
   var windowWidth = $(window).width();
   currentSlide++;
   $slideContainer.animate({
@@ -39,7 +39,7 @@ function goToNextSlide () {
 }
 
 function goToPreviousSlide () {
-  if(currentSlide <= 0) return; 
+  if(currentSlide <= 0) return;
   var windowWidth = $(window).width();
   currentSlide--;
   $slideContainer.animate({
@@ -73,3 +73,25 @@ generatePagination();
 $(window).resize(postitionSlides);
 $('.next').on('click', goToNextSlide);
 $('.previous').on('click', goToPreviousSlide);
+
+
+////
+
+
+(function() {
+
+	$('#live-chat header').on('click', function() {
+
+		$('.chat').slideToggle(300, 'swing');
+		$('.chat-message-counter').fadeToggle(300, 'swing');
+
+	});
+
+	$('.chat-close').on('click', function(e) {
+
+		e.preventDefault();
+		$('#live-chat').fadeOut(300);
+
+	});
+
+}) ();
