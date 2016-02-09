@@ -83,61 +83,55 @@
                       <h1>ข้อมูลส่วนตัว</h1>
                       <div class="row">
                         <div class="col-xs-6">
-                          <h3 style="margin: 0;">ชื่อ</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input"
+                          <h3 style="margin: 0;"><span style="color:#ff0000;"> * </span>ชื่อ</h3>
+                          <input type="text" class="form-control" style="font-size:1em;" placeholder="ชื่อ"
                           id="namefield" name="namefield" class="required">
                         </div>
                         <div class="col-xs-6">
-                          <h3 style="margin: 0;">นามสกุล</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input">
+                          <h3 style="margin: 0;"><span style="color:#ff0000;"> * </span>นามสกุล</h3>
+                          <input type="text" class="form-control" style="font-size:1em;" placeholder="นามสกุล">
                         </div>
                       </div>
                       <div class="row">
                         <div class="col-xs-6">
-                          <h3 style="margin: 0;">ชื่อ (ภาษอังกฤษ)</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input">
+                          <h3 style="margin: 0;"><span style="color:#ff0000;"> * </span>ชื่อ (ภาษอังกฤษ)</h3>
+                          <input type="text" class="form-control" style="font-size:1em;" placeholder="ชื่อ (ภาษอังกฤษ)">
                         </div>
                         <div class="col-xs-6">
-                          <h3 style="margin: 0;">นามสกุล (ภาษอังกฤษ)</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input">
+                          <h3 style="margin: 0;"><span style="color:#ff0000;"> * </span>นามสกุล (ภาษอังกฤษ)</h3>
+                          <input type="text" class="form-control" style="font-size:1em;" placeholder="นามสกุล (ภาษอังกฤษ)">
                         </div>
                       </div>
                       <div class="row">
                         <div class="col-xs-4">
-                          <h3 style="margin: 0;">ชื่อเล่น</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input">
+                          <h3 style="margin: 0;"><span style="color:#ff0000;"> * </span>ชื่อเล่น</h3>
+                          <input type="text" class="form-control" style="font-size:1em;" placeholder="ชื่อเล่น">
                         </div>
                         <div class="col-xs-4">
-                          <h3 style="margin: 0;">ศาสนา</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input">
+                          <h3 style="margin: 0;"><span style="color:#ff0000;"> * </span>ศาสนา</h3>
+                          <input type="text" class="form-control" style="font-size:1em;" placeholder="ศาสนา">
                         </div>
                         <div class="col-xs-4">
-                          <h3 style="margin: 0;">วันเกิด</h3>
-                          <input type="date" class="form-control" style="font-size:1em;" placeholder="Text input">
+                          <h3 style="margin: 0;"><span style="color:#ff0000;"> * </span>วันเกิด</h3>
+                          <input type="date" class="form-control" style="font-size:1em;" placeholder="วันเกิด">
                         </div>
                       </div>
                       <div class="row">
-                        <div class="col-xs-4">
-                          <h3 style="margin: 0;">เพศ</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input">
+                        <div class="col-xs-2">
+                          <h3 style="margin: 0;"><span style="color:#ff0000;"> * </span>เพศ</h3>
+                          <select class="selectbox">
+                            <option>ระบุ</option>
+                            <option>ชาย</option>
+                            <option>หญิง</option>
+                          </select>
                         </div>
-                        <div class="col-xs-8">
-                          <h3 style="margin: 0;">อีเมลล์</h3>
-                          <input type="email" class="form-control" style="font-size:1em;" placeholder="Text input">
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-xs-4">
-                          <h3 style="margin: 0;">เบอร์โทรศัพท์</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input">
+                        <div class="col-xs-6">
+                          <h3 style="margin: 0;"><span style="color:#ff0000;"> * </span>อีเมลล์</h3>
+                          <input type="email" class="form-control" style="font-size:1em;" placeholder="อีเมลล์">
                         </div>
                         <div class="col-xs-4">
-                          <h3 style="margin: 0;">แพ้อะไร</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input">
-                        </div>
-                        <div class="col-xs-4">
-                          <h3 style="margin: 0;">โรคประจำตัว</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input">
+                          <h3 style="margin: 0;"><span style="color:#ff0000;"> * </span>เบอร์โทรศัพท์</h3>
+                          <input type="number" class="form-control" style="font-size:1em;" placeholder="เบอร์โทรศัพท์">
                         </div>
                       </div>
                     </div>
@@ -147,18 +141,18 @@
                       <h1>ข้อมูลส่วนตัว (ต่อ)</h1>
                       <div class="row">
                         <div class="col-xs-12">
-                          <h3 style="margin: 0;">ที่อยู่</h3>
+                          <h3 style="margin: 0;"><span style="color:#ff0000;"> * </span>ที่อยู่</h3>
                           <textarea class="form-control" style="font-size:1em;" row tops="3"></textarea>
                         </div>
                       </div>
                       <div class="row">
                         <div class="col-xs-6">
-                          <h3 style="margin: 0;">Facebook</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input" class="required">
+                          <h3 style="margin: 0;"><span style="color:#ff0000;"> * </span>Facebook</h3>
+                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Facebook" class="required">
                         </div>
                         <div class="col-xs-6">
-                          <h3 style="margin: 0;">Twitter</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input">
+                          <h3 style="margin: 0;"><span style="color:#ff0000;"> * </span>Twitter</h3>
+                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Twitter">
                         </div>
                       </div>
                     </div>
@@ -168,22 +162,22 @@
                       <h1>ข้อมูลการศึกษา</h1>
                       <div class="row">
                         <div class="col-xs-12">
-                          <h3 style="margin: 0;">ชื่อโรงเรียน</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input">
+                          <h3 style="margin: 0;"><span style="color:#ff0000;"> * </span>ชื่อโรงเรียน</h3>
+                          <input type="text" class="form-control" style="font-size:1em;" placeholder="ชื่อโรงเรียน">
                         </div>
                       </div>
                       <div class="row">
                         <div class="col-xs-5">
-                          <h3 style="margin: 0;">ระดับชั้น</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input">
+                          <h3 style="margin: 0;"><span style="color:#ff0000;"> * </span>ระดับชั้น</h3>
+                          <input type="text" class="form-control" style="font-size:1em;" placeholder="ระดับชั้น">
                         </div>
                         <div class="col-xs-5">
-                          <h3 style="margin: 0;">แผนการเรียน</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input">
+                          <h3 style="margin: 0;"><span style="color:#ff0000;"> * </span>แผนการเรียน</h3>
+                          <input type="text" class="form-control" style="font-size:1em;" placeholder="แผนการเรียน">
                         </div>
                         <div class="col-xs-2">
-                          <h3 style="margin: 0;">เกรดเฉลี่ย</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input">
+                          <h3 style="margin: 0;"><span style="color:#ff0000;"> * </span>เกรดเฉลี่ย</h3>
+                          <input type="number" class="form-control" style="font-size:1em;" placeholder="เกรดเฉลี่ย">
                         </div>
                       </div>
                     </div>
@@ -194,11 +188,11 @@
                       <div class="row">
                         <div class="col-xs-4">
                           <h3 style="margin: 0;">แพ้อะไร</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input">
+                          <input type="text" class="form-control" style="font-size:1em;" placeholder="แพ้อะไร">
                         </div>
                         <div class="col-xs-8">
                           <h3 style="margin: 0;">โรคประจำตัว</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input">
+                          <input type="text" class="form-control" style="font-size:1em;" placeholder="โรคประจำตัว">
                         </div>
                       </div>
                     </div>
@@ -208,22 +202,22 @@
                       <h1>ข้อมูลผู้ปกครอง</h1>
                       <div class="row">
                         <div class="col-xs-6">
-                          <h3 style="margin: 0;">ชื่อ</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input">
+                          <h3 style="margin: 0;"><span style="color:#ff0000;"> * </span>ชื่อ</h3>
+                          <input type="text" class="form-control" style="font-size:1em;" placeholder="ชื่อผู้ปกครอง">
                         </div>
                         <div class="col-xs-6">
-                          <h3 style="margin: 0;">นามสกุล</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input">
+                          <h3 style="margin: 0;"><span style="color:#ff0000;"> * </span>นามสกุล</h3>
+                          <input type="text" class="form-control" style="font-size:1em;" placeholder="นามสกุลผู้ปกครอง">
                         </div>
                       </div>
                       <div class="row">
                         <div class="col-xs-5">
-                          <h3 style="margin: 0;">ความสัมพันธ์</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input">
+                          <h3 style="margin: 0;"><span style="color:#ff0000;"> * </span>ความสัมพันธ์</h3>
+                          <input type="text" class="form-control" style="font-size:1em;" placeholder="ความสัมพันธ์">
                         </div>
                         <div class="col-xs-7">
-                          <h3 style="margin: 0;">เบอร์โทรศัพท์</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input">
+                          <h3 style="margin: 0;"><span style="color:#ff0000;"> * </span>เบอร์โทรศัพท์ผู้ปกครอง</h3>
+                          <input type="text" class="form-control" style="font-size:1em;" placeholder="เบอร์โทรศัพท์ผู้ปกครอง">
                         </div>
                       </div>
                     </div>
@@ -234,19 +228,19 @@
                       <div class="row">
                         <div class="col-xs-12">
                           <h3 style="margin: 0;">ทักษะทางคอมพิวเตอร์</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input" class="required">
+                          <input type="text" class="form-control" style="font-size:1em;" placeholder="ทักษะทางคอมพิวเตอร์" class="required">
                         </div>
                       </div>
                       <div class="row">
                         <div class="col-xs-12">
-                          <h3 style="margin: 0;">รู้จักค่ายนี้จากไหน</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input">
+                          <h3 style="margin: 0;"><span style="color:#ff0000;"> * </span>รู้จักค่ายนี้จากไหน</h3>
+                          <input type="text" class="form-control" style="font-size:1em;" placeholder="รู้จักค่ายนี้จากไหน">
                         </div>
                       </div>
                       <div class="row">
                         <div class="col-xs-12">
-                          <h3 style="margin: 0;">กิจกรรมที่เคยทำ</h3>
-                          <input type="text" class="form-control" style="font-size:1em;" placeholder="Text input">
+                          <h3 style="margin: 0;"><span style="color:#ff0000;"> * </span>กิจกรรมที่เคยทำ</h3>
+                          <input type="text" class="form-control" style="font-size:1em;" placeholder="กิจกรรมที่เคยทำ">
                         </div>
                       </div>
                     </div>
